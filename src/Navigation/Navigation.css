@@ -1,0 +1,37 @@
+.Navigation {
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: block;
+}
+
+.Navigation-List {
+    display: none;
+    list-style: none;
+}
+
+@media only screen and (min-width: 770px) {
+    .Navigation-List {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .Navigation-Link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+.Navigation-Link {
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 20px;
+}

@@ -1,0 +1,43 @@
+.Card {
+    background: #FAFAFA;
+    border-radius: 20px;
+    padding: 16px 20px;
+    grid-column: span 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.Card_size_m {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.Card-Close {
+    top: 15px;
+    display: none;
+}
+
+.Card:hover .Card-Close {
+    position: absolute;
+    display: block;
+    right: 20px;
+}
+
+.Card-Header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Card-Title {
+    font-size: 1.3rem;
+    margin: .3rem;
+}
+
+.Card-Content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

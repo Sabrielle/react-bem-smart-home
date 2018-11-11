@@ -1,0 +1,18 @@
+.Button {
+    border-radius: 8px;
+    background: transparent;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 8px 15px;
+    font-size: .95rem;
+    cursor: pointer;
+    background: #E5E5E5;
+}
+
+.Button:active, .Button:focus {
+    background: #FFD93E;
+    outline: none;
+}

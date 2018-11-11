@@ -6,6 +6,7 @@
     "@bem-react/classname": "^1.1.1",
     "@bem-react/core": "^1.2.0",
     "@bem-react/di": "^1.0.3",
+    "hls.js": "^0.11.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
