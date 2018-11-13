@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import './Content.css';
 import Card from '../Card';
 import Modal from '../Modal';
+import initVideoContols from './video';
 import { cn } from '@bem-react/classname';
 
 const cnContent = cn('Content');
 
-class Content extends Component {
+export class Content extends Component {
+  componentDidMount () {
+    initVideoContols();
+  }
   render() {
     return (
         <main className={cnContent(null, ['Container'])}>
@@ -24,5 +27,3 @@ class Content extends Component {
     );
   }
 }
-
-export default Content;

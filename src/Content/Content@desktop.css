@@ -1,0 +1,17 @@
+.Content {
+    min-height: calc(100vh - 150px);
+    margin: 85px auto 0px auto;
+    width: 80%;
+}
+
+.Content-Header {
+    font-size: 1.1rem;
+}
+
+.Content-Grid {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: auto;
+    grid-gap: .7rem;
+    grid-template-columns: repeat(6, 1fr);
+}

@@ -18,7 +18,7 @@ class Video extends Component {
                 controls 
                 muted 
                 autoPlay
-                src={this.src}
+                onClick={this.props.onClick}
                 >
             </video>
         );
